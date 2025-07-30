@@ -4,7 +4,7 @@ import { uploadData, getUrl } from 'aws-amplify/storage';
 import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import { Amplify } from 'aws-amplify';
-import amplifyConfig from '../amplify_outputs.json';
+import amplifyConfig from '/amplify_outputs.json';
 
 Amplify.configure(amplifyConfig);
 
